@@ -16,7 +16,9 @@ import {
   MousePointerClick,
 } from "lucide-react";
 import { WhatsAppIcon } from "./WhatsAppIcon";
-import { HeroAnimatedBackground } from "./HeroAnimatedBackground";
+import { HeroBackgroundVideo } from "./HeroBackgroundVideo";
+import heroPoster from "../assets/heroes/home-hero-analytics-poster.jpg";
+import heroAnalyticsVideo from "../assets/home-hero-analytics-loop.mp4.asset.json";
 import { AGENCY_CONFIG } from "../data/agencyData";
 import { getWhatsAppUrl } from "../utils/whatsapp";
 
