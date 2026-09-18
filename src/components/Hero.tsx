@@ -18,7 +18,7 @@ import {
 import { WhatsAppIcon } from "./WhatsAppIcon";
 import { HeroBackgroundVideo } from "./HeroBackgroundVideo";
 import heroPoster from "../assets/heroes/home-hero-analytics-poster.jpg";
-import heroAnalyticsVideo from "../assets/home-hero-analytics-loop.mp4.asset.json";
+import heroAnalyticsVideo from "../assets/home-hero-analytics-static.mp4.asset.json";
 import { AGENCY_CONFIG } from "../data/agencyData";
 import { getWhatsAppUrl } from "../utils/whatsapp";
 
