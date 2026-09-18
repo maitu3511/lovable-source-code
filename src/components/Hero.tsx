@@ -18,7 +18,7 @@ import {
 import { WhatsAppIcon } from "./WhatsAppIcon";
 import { HeroBackgroundVideo } from "./HeroBackgroundVideo";
 import heroPoster from "../assets/heroes/home-hero-analytics-poster.jpg";
-import heroAnalyticsVideo from "../assets/home-hero-analytics-loop.mp4.asset.json";
+import heroAnalyticsVideo from "../assets/home-hero-analytics-static.mp4.asset.json";
 import { AGENCY_CONFIG } from "../data/agencyData";
 import { getWhatsAppUrl } from "../utils/whatsapp";
 
@@ -93,7 +93,8 @@ export const Hero: React.FC<HeroProps> = ({
         <HeroBackgroundVideo
           poster={heroPoster}
           mp4Src={heroAnalyticsVideo.url}
-          opacity={0.85}
+          className="blur-[2px] scale-[1.03]"
+          opacity={0.8}
         />
         {/* Soft white fade preserves pristine typography readability. */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#FAF9F5]/70 via-[#FAF9F5]/35 to-[#FAF9F5]/82" />
