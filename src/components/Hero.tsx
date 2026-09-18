@@ -1,5 +1,3 @@
-import heroBg from "../assets/heroes/home-marketing-ecosystem-poster.jpg";
-import homeAgencyVideo from "../assets/home-marketing-ecosystem-loop.mp4.asset.json";
 import React, { useState, useEffect } from "react";
 import { motion } from "motion/react";
 import {
@@ -18,7 +16,7 @@ import {
   MousePointerClick,
 } from "lucide-react";
 import { WhatsAppIcon } from "./WhatsAppIcon";
-import { HeroBackgroundVideo } from "./HeroBackgroundVideo";
+import { HeroAnimatedBackground } from "./HeroAnimatedBackground";
 import { AGENCY_CONFIG } from "../data/agencyData";
 import { getWhatsAppUrl } from "../utils/whatsapp";
 
@@ -88,14 +86,9 @@ export const Hero: React.FC<HeroProps> = ({
       className="relative pt-32 pb-20 lg:pt-36 lg:pb-28 overflow-hidden bg-[#FAF9F5] text-[#111111] isolate"
       id="hero-section"
     >
-      {/* 1. Bright Digital Marketing Ecosystem Video Background */}
+      {/* 1. Live Animated Analytics Background (graphs, bars, data pulses) */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden z-0">
-        {/* Premium background video with smooth autoPlay, loop, muted, and inline playback */}
-        <HeroBackgroundVideo
-          poster={heroBg}
-          mp4Src={homeAgencyVideo.url}
-          opacity={0.82}
-        />
+        <HeroAnimatedBackground />
         {/* Soft white fade preserves pristine typography readability. */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#FAF9F5]/70 via-[#FAF9F5]/35 to-[#FAF9F5]/82" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#FAF9F5]/90 via-[#FAF9F5]/42 to-[#FAF9F5]/18" />
