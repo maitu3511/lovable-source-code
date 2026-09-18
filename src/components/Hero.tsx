@@ -16,7 +16,7 @@ import {
   MousePointerClick,
 } from "lucide-react";
 import { WhatsAppIcon } from "./WhatsAppIcon";
-import { HeroBackgroundVideo } from "./HeroBackgroundVideo";
+import { HeroAnimatedBackground } from "./HeroAnimatedBackground";
 import { AGENCY_CONFIG } from "../data/agencyData";
 import { getWhatsAppUrl } from "../utils/whatsapp";
 
