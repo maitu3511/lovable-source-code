@@ -88,9 +88,13 @@ export const Hero: React.FC<HeroProps> = ({
       className="relative pt-32 pb-20 lg:pt-36 lg:pb-28 overflow-hidden bg-[#FAF9F5] text-[#111111] isolate"
       id="hero-section"
     >
-      {/* 1. Live Animated Analytics Background (graphs, bars, data pulses) */}
+      {/* 1. Digital Marketing Analytics Background Video */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden z-0">
-        <HeroAnimatedBackground />
+        <HeroBackgroundVideo
+          poster={heroPoster}
+          mp4Src={heroAnalyticsVideo.url}
+          opacity={0.85}
+        />
         {/* Soft white fade preserves pristine typography readability. */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#FAF9F5]/70 via-[#FAF9F5]/35 to-[#FAF9F5]/82" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#FAF9F5]/90 via-[#FAF9F5]/42 to-[#FAF9F5]/18" />
