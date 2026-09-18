@@ -1,5 +1,3 @@
-import heroBg from "../assets/heroes/home-marketing-ecosystem-poster.jpg";
-import homeAgencyVideo from "../assets/home-marketing-ecosystem-loop.mp4.asset.json";
 import React, { useState, useEffect } from "react";
 import { motion } from "motion/react";
 import {
