@@ -93,7 +93,8 @@ export const Hero: React.FC<HeroProps> = ({
         <HeroBackgroundVideo
           poster={heroPoster}
           mp4Src={heroAnalyticsVideo.url}
-          opacity={0.85}
+          className="blur-[2px] scale-[1.03]"
+          opacity={0.8}
         />
         {/* Soft white fade preserves pristine typography readability. */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#FAF9F5]/70 via-[#FAF9F5]/35 to-[#FAF9F5]/82" />
